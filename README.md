@@ -30,21 +30,27 @@ Note: Make sure you have all of the data folder in the same directory,
 1.1 Parsing Weather Data
 	Run the weather.py file in the terminal directly, in the same directory 
     	of extracted_data folder and ghcn-daily foler.
+	
 1.2 Use Weather Data API
     	This is illustrated in the notebook 
+	
 2.1 Parsing demographic Data
     	To parse data and generate pickle file, run the weather.py script in the terminal,
     	in the same directory of demographic_data folder.
     	(This is also illustrated in the notebook)
+	
 2.2 Use Weather Data API
     	This is illustrated in the notebook 
+	
 3.1 Parsing Crime Data 
     	Run KDE_pre_computation.py script in the terminal,
     	in the same directory of data folder.
+	
 3.2 Visualize KDE
     	Run KDE_visualization.py script in the terminal, in the same directory of data folder.
     	If you don’t have ‘data/chicago_crime_data_2015_sorted.csv’ file yet, 
         run KDE_pre_computation.py to generate this file first. 
+	
 4.1 Model Training
 	model.py contains main function to run the model training.
 	The code of model training is in the notebook. 
